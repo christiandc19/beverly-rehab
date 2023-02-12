@@ -80,7 +80,7 @@ const Footer = () => {
                         </div>
                     </form>
                 </div>
-                <p className='copyright'><p>&copy; 2023 55 SILVER. All rights reserved</p></p>
+                <p className='copyright'><p>&copy; 2023 BEVERLY RECOVERY. All rights reserved</p></p>
 
 
             </div>

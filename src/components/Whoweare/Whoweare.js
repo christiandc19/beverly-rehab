@@ -21,7 +21,7 @@ const Whoweare = () => {
         <Fade left>
         <div className="SoberLiving-box SoberLiving-left">
                      <div className='SoberLiving-title'><br/>
-                <h1>WHY CHOOSE 55 SILVER?</h1>
+                <h1>WHY CHOOSE BEVERLY RECOVERY?</h1>
             </div><br/>
                 <p>
                 Build a new life at one of our sober living homes across Los Angeles, providing support and a community of healing behind you, every step of the way. <br/> <br/>Transitioning back into society is difficult in many situations that's why we offer an opportunity of a new beginning to the world of sobriety.

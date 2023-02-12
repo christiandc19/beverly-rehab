@@ -91,7 +91,7 @@ Taking part in all the exciting sights that a vibrant city like LA has to offer 
 <Fade left>
         <div className="SoberLiving-box">
             <div className='SoberLiving-title'>
-                <h1>BENEFITS OF 55 SILVER SOBER LIVING</h1>
+                <h1>BENEFITS OF BEVERLY RECOVERY SOBER LIVING</h1>
             </div><br/>
                 <p>
                 We believe that no one should have to go through the early stages of recovery alone. 9 Silver housing provides a safe space to facilitate reintegration back into the world as a sober member of society. Enjoy a comfortable and stable living situation with 9 Silver while you pick up the pieces and build a new life for yourself. Here’s what you can expect from your time at one of our sober living homes:

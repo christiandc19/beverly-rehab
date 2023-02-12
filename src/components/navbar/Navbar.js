@@ -47,7 +47,7 @@ const Navbar = () => {
                 
                  <div className="navbar-logo">
                     <Link to='/'>
-                    <img src={logo} width="200px" height="80px" alt="55 Silver Logo" loading="lazy"/>
+                    <img src={logo} width="130px" height="70px" alt="Beverly Recovery Logo" loading="lazy"/>
                     </Link>
                 </div>
 
