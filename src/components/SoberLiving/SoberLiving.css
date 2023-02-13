@@ -79,10 +79,7 @@
       margin: 1rem;
   }
   
-  .SoberLiving-wrap h1 {
-      text-align: center;
-      font-family: 'Montserrat', sans-serif;
-  }
+
 
   .SoberLiving-wrap li {
     font-family: 'Montserrat', sans-serif;
@@ -116,10 +113,20 @@
           font-size: 2rem;
       }
   
-  .treatment-left button {
+    .treatment-left button {
       margin: 1rem auto;
   }
   
+  .SoberLiving-wrap .SoberLiving-title h1 {
+    font-size: 1rem;
+    text-align: center;
+}
+
+.SoberLiving-wrap p {
+    font-size: 13px;
+
+}
+
   }
 
 
@@ -127,16 +134,4 @@
 
 
 
-@media screen and (max-width:940px) {
-
-    .treatment .treatment-content {
-        width: 100%;
-        padding: 25px;
-    }
-
-    .treatment p {
-        font-size: 14px;
-    }
-
-}
 

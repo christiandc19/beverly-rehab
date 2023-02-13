@@ -69,8 +69,14 @@
     }
 
     .mission-section p {
-        font-size: 15px;
+        font-size: 13px;
     }
+
+    .mission-section .mission-header {
+        font-size: 1.5rem;
+    }
+
+
 
 }
 
