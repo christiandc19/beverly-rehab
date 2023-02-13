@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/beverly-rehab/static/css/main.7046d2d8.css",
+    "main.css": "/beverly-rehab/static/css/main.53572c6c.css",
     "main.js": "/beverly-rehab/static/js/main.7d12f0fa.js",
     "static/media/menu-bg-west-hollywood.png": "/beverly-rehab/static/media/menu-bg-west-hollywood.5cfb379f0f407f5b0b7c.png",
     "static/media/venice-retreat1.png": "/beverly-rehab/static/media/venice-retreat1.9e4e62b22ff14f836cf8.png",
@@ -41,11 +41,11 @@
     "static/media/icon-bed.jpg": "/beverly-rehab/static/media/icon-bed.51fc82feba595a72b3e0.jpg",
     "index.html": "/beverly-rehab/index.html",
     "static/media/waves.svg": "/beverly-rehab/static/media/waves.e42ddec972c9ec214abc0ac6e8439ee4.svg",
-    "main.7046d2d8.css.map": "/beverly-rehab/static/css/main.7046d2d8.css.map",
+    "main.53572c6c.css.map": "/beverly-rehab/static/css/main.53572c6c.css.map",
     "main.7d12f0fa.js.map": "/beverly-rehab/static/js/main.7d12f0fa.js.map"
   },
   "entrypoints": [
-    "static/css/main.7046d2d8.css",
+    "static/css/main.53572c6c.css",
     "static/js/main.7d12f0fa.js"
   ]
 }
