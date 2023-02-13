@@ -21,7 +21,8 @@
 
 .ServicesSection-container p {
         font-family: 'Montserrat', sans-serif;
-        color: var(--primary-dark);
+        color: var(--primary-color);
+        font-size: 11px;
     }
 
 .ServicesSection h1 {
@@ -31,10 +32,10 @@
 .Services-thumbnail  {
     border: 1px solid rgba(8, 83, 28, 0.181);
     margin: 1rem;
-    width: 200px;
+    width: 130px;
     height: 130px;
     padding: 5px;
-    border-radius: 10px;
+    border-radius: 5rem;
     padding: 1.5rem;
 
     box-shadow: 7px 11px 26px -14px rgba(0,0,0,0.38);
@@ -77,15 +78,15 @@
         padding: 1rem 0;
     }
 
-
+/* 
     .ServicesSection-container p {
         font-size: 14px;
-    }
+    } */
 
 
-    .Services-thumbnail  {
+    /* .Services-thumbnail  {
     width: 160px;
-}
+} */
 
 }
 
