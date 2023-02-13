@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/beverly-rehab/static/css/main.68bddb66.css",
+    "main.css": "/beverly-rehab/static/css/main.c32add13.css",
     "main.js": "/beverly-rehab/static/js/main.7d12f0fa.js",
     "static/media/menu-bg-west-hollywood.png": "/beverly-rehab/static/media/menu-bg-west-hollywood.5cfb379f0f407f5b0b7c.png",
     "static/media/venice-retreat1.png": "/beverly-rehab/static/media/venice-retreat1.9e4e62b22ff14f836cf8.png",
@@ -8,7 +8,6 @@
     "static/media/menu-bg-huntington-beach-min.png": "/beverly-rehab/static/media/menu-bg-huntington-beach-min.391a3cc07fbad9b9c42e.png",
     "static/media/hero-bg2.jpg": "/beverly-rehab/static/media/hero-bg2.26c4ff9e20681d3f07db.jpg",
     "static/media/menu-bg-sober-living.jpg": "/beverly-rehab/static/media/menu-bg-sober-living.b6ea09ccc7a99ec36c14.jpg",
-    "static/media/footer-bg.jpg": "/beverly-rehab/static/media/footer-bg.7e2cd81203200aca84ce.jpg",
     "static/media/menu-bg-mission.jpg": "/beverly-rehab/static/media/menu-bg-mission.06092cecd208e458d998.jpg",
     "static/media/card4.jpg": "/beverly-rehab/static/media/card4.c7e4f1dd62100f71b493.jpg",
     "static/media/menu-bg-contact.jpg": "/beverly-rehab/static/media/menu-bg-contact.738bbfa5dc41d7382a2d.jpg",
@@ -27,6 +26,7 @@
     "static/media/therapy.jpg": "/beverly-rehab/static/media/therapy.dad0142aa6ca32c0ca9b.jpg",
     "static/media/clinic.jpg": "/beverly-rehab/static/media/clinic.df2089786a9615989f92.jpg",
     "static/media/nav-logo.png": "/beverly-rehab/static/media/nav-logo.12f18920eb2d30b947ab.png",
+    "static/media/footer-bg.jpg": "/beverly-rehab/static/media/footer-bg.f3ec3c18f9a873448055.jpg",
     "static/media/icon-staff.jpg": "/beverly-rehab/static/media/icon-staff.29ebba567cb6379e0d6b.jpg",
     "static/media/icon-money-management.jpg": "/beverly-rehab/static/media/icon-money-management.aefc460f66fc5acc96f5.jpg",
     "static/media/icon-family.jpg": "/beverly-rehab/static/media/icon-family.70fe46ff233d9dc6aaba.jpg",
@@ -41,11 +41,11 @@
     "static/media/icon-bed.jpg": "/beverly-rehab/static/media/icon-bed.51fc82feba595a72b3e0.jpg",
     "index.html": "/beverly-rehab/index.html",
     "static/media/waves.svg": "/beverly-rehab/static/media/waves.e42ddec972c9ec214abc0ac6e8439ee4.svg",
-    "main.68bddb66.css.map": "/beverly-rehab/static/css/main.68bddb66.css.map",
+    "main.c32add13.css.map": "/beverly-rehab/static/css/main.c32add13.css.map",
     "main.7d12f0fa.js.map": "/beverly-rehab/static/js/main.7d12f0fa.js.map"
   },
   "entrypoints": [
-    "static/css/main.68bddb66.css",
+    "static/css/main.c32add13.css",
     "static/js/main.7d12f0fa.js"
   ]
 }
