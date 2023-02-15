@@ -25,12 +25,16 @@
         font-size: 11px;
     }
 
+.ServicesSection-header p {
+    font-size: 14px;
+}
+
 .ServicesSection h1 {
     font-family: 'Montserrat', sans-serif;
 }
 
 .Services-thumbnail  {
-    border: 1px solid rgba(8, 83, 28, 0.181);
+    border: .5px solid rgba(8, 83, 28, 0.068);
     margin: 1rem;
     width: 130px;
     height: 130px;

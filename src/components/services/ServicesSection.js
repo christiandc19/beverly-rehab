@@ -25,10 +25,11 @@ const ServicesSection = () => {
         <>
         <div className='ServicesSection'>
             <div className="ServicesSection-container">
-                <div>
+                <div className='ServicesSection-header'>
                 <h1>OUR SERVICES</h1><br/>
                 <p>A balanced approach to recovery through community & action.</p><br/>
                 </div>
+
                 <div className="content">
                             <Fade bottom>
                                 <div className='Services-thumbnail'>

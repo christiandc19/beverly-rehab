@@ -43,7 +43,7 @@ const ContactForm = () => {
 
     <div class="get_form_inner2">
             <h2>EMAIL</h2>
-            <p><AiOutlineMail /> info@55silver.biz  </p><br />
+            <p><AiOutlineMail /> info@beverlyrehab.com  </p><br />
     </div>
 
     <div class="get_form_inner2">

@@ -14,7 +14,7 @@ const MissionSection = () => {
         <>
         <div className='mission-section container'>
         <h1 className='mission-header'>OUR PHILOSOPHY</h1>
-        <p>Beverly Recovery is a combination of sober living housing opportunities. Our mission is to create a stable and productive future through healing and close monitoring of all aspects of recovery. We oversee a handful of recovery clinic locations and sober living alternatives in Southern California. </p>
+        <p>Beverly Rehab is a combination of sober living housing opportunities. Our mission is to create a stable and productive future through healing and close monitoring of all aspects of recovery. We oversee a handful of recovery clinic locations and sober living alternatives in Southern California. </p>
 
         <h1 className='mission-header'>OUR MINDSET</h1>
 

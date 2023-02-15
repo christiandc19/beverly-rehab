@@ -78,7 +78,7 @@ const Footer = () => {
                         </div>
                     </form>
                 </div>
-                <p className='copyright'><p>&copy; 2023 BEVERLY RECOVERY. ALL RIGHTS RESERVED</p></p>
+                <p className='copyright'><p>&copy; 2023 BEVERLY REHAB. ALL RIGHTS RESERVED</p></p>
 
 
             </div>

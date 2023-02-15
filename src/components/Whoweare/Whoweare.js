@@ -21,21 +21,19 @@ const Whoweare = () => {
         <Fade left>
         <div className="SoberLiving-box SoberLiving-left">
                      <div className='SoberLiving-title'><br/>
-                <h1>WHY CHOOSE BEVERLY RECOVERY?</h1>
-            </div><br/>
-                <p>
-                Build a new life at one of our sober living homes across Los Angeles, providing support and a community of healing behind you, every step of the way. <br/> <br/>Transitioning back into society is difficult in many situations that's why we offer an opportunity of a new beginning to the world of sobriety.
-                </p>
-
-                <div>
-                <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
-                <Link to="/sober-living">
-                    <button>LEARN MORE</button>
-                </Link>
-                </LinkRoll>
-                </div>
-            </div>
-        </Fade>
+                        <h1>WHY CHOOSE BEVERLY REHAB?</h1>
+                      </div><br/>
+                        <p>Build a new life at one of our sober living homes across Los Angeles, providing support and a community of healing behind you, every step of the way. <br/> <br/>Transitioning back into society is difficult in many situations that's why we offer an opportunity of a new beginning to the world of sobriety.</p>
+                      
+                      <div>
+                      <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
+                      <Link to="/sober-living">
+                          <button>LEARN MORE</button>
+                      </Link>
+                      </LinkRoll>
+                    </div>
+          </div>
+          </Fade>
 
         <Fade right>
         <div className="SoberLiving-box box hide">

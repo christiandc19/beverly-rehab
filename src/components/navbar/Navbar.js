@@ -47,7 +47,7 @@ const Navbar = () => {
                 
                  <div className="navbar-logo">
                     <Link to='/'>
-                    <img src={logo} width="130px" height="70px" alt="Beverly Recovery Logo" loading="lazy"/>
+                    <img src={logo} width="150px" height="80px" alt="Beverly Rehab Logo" loading="lazy"/>
                     </Link>
                 </div>
 
@@ -77,7 +77,7 @@ const Navbar = () => {
                 </div>
 
                 <div className='hide'>
-                <p><a href="tel:3235792196"> CONTACT US <span> <AiOutlinePhone /></span></a></p>
+                <p><a href="tel:3236433171"> CONTACT US <span> <AiOutlinePhone /></span></a></p>
                 </div>
 
 
