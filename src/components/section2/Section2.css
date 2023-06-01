@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');  
+
+.section2{
+    background:linear-gradient(to top, #070707ba, #242225cc), url('../../assets/section2-bg.jpg') no-repeat center center/cover;
+    height: auto;
+    width: 100%;
+    z-index: -1;
+    z-index: 1;
+    margin: 3rem 0;
+    padding: 3rem 0;
+  }
+
+  .section2-content {
+    padding: 5rem 0;
+    z-index: 3;
+    text-align: center;
+  }
+
+  .section2-content h1 {
+    color: white;
+    font-size: 1rem;
+    letter-spacing: 3px;
+  }
+
+  .section2-content h2 {
+    color: white;
+    padding: 1rem;
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 3px;
+    font-size: 2rem;
+  }
+ 
+  .section2-flex {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 1rem 0;
+  }
+
+  .flexItem {
+    margin: 1rem;
+    padding: 1rem;
+    width: 200px;
+    height: 150px;
+    background-color: rgba(255, 255, 255, 0.17);
+  }
+  .section2-flex .flexIcon {
+    color: white;
+    font-size: 3rem;
+  }
+
+  .section2-flex p {
+    color: white;
+    font-size: 18px;
+  }
+
+
+
+   
+   
+
+   @media screen and (max-width: 1200px) {
+
+
+   }
+
+
+
+
+    

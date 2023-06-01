@@ -7,7 +7,7 @@ import { Link as LinkRoll } from 'react-scroll'
 
 
 
-import WhatWeDoImg1 from '../../assets/whatwedo1.jpg'
+import WhatWeDoImg1 from '../../assets/section1-image.jpg'
 
 
 

@@ -2,7 +2,6 @@ import React from 'react'
 import {Link} from 'react-router-dom'
 import { BsFillArrowUpCircleFill } from 'react-icons/bs'
 import logo from '../../assets/nav-logo.png'
-import { FiFacebook, FiInstagram, FiLinkedin } from 'react-icons/fi'
 import './FooterStyles.css'
 
 import { Link as LinkRoll } from 'react-scroll'
@@ -11,8 +10,8 @@ const Footer = () => {
     return (
 
 <>
-        <div className='footer'>
-            <div className="footer-container">
+        <div className='footer '>
+            <div className="footer-container container">
                 <div className="top">
                     <div className="logo-footer">
                     <img src={logo} width="160px" height="60px" alt="Palm Springs Rehab Logo" loading="lazy"/>
@@ -34,6 +33,11 @@ const Footer = () => {
                         <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
                         <Link to='/treatment'><p>Sober Living</p></Link>
                         </LinkRoll>
+
+                        <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
+                        <Link to='/detox'><p>Detox</p></Link>
+                        </LinkRoll>
+
 
                         <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
                         <Link to='/insurance'><p>About Us</p></Link>
@@ -68,7 +72,7 @@ const Footer = () => {
                         </LinkRoll>
                     </div>
 
-
+{/* 
                     <form>
                         <h3>Follow Us:</h3>
                         <div className="social-group">
@@ -76,7 +80,7 @@ const Footer = () => {
                             <FiFacebook className='social-icon' />
                             <FiLinkedin className='social-icon' />
                         </div>
-                    </form>
+                    </form> */}
                 </div>
                 <p className='copyright'><p>&copy; 2023 BEVERLY REHAB. ALL RIGHTS RESERVED</p></p>
 

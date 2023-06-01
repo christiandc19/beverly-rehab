@@ -65,7 +65,7 @@ const Navbar = () => {
                     </li>
 
                     <li><Link to='/sober-living'>SOBER LIVING</Link> </li>
-
+                    <li><Link to='/detox'>DETOX</Link> </li>
                     <li><Link to='/mission'>ABOUT US</Link> </li>
 
 

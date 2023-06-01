@@ -6,6 +6,8 @@ import App from './App';
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
 
 import SoberLivingPage from './routes/SoberLivingPage'
+import DetoxPage from './routes/DetoxPage'
+
 import MissionPage from './routes/MissionPage'
 import ContactPage from './routes/ContactPage'
 
@@ -28,7 +30,7 @@ ReactDOM.render(
       <Route exact path='/north-detroit' element={<NorthDetroit />} />
 
       <Route exact path='/sober-living' element={<SoberLivingPage />} />
-
+      <Route exact path='/detox' element={<DetoxPage />} />
       <Route exact path='/mission' element={<MissionPage />} />
 
       <Route exact path='/contact' element={<ContactPage />} />
