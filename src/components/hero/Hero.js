@@ -1,50 +1,69 @@
-import React from 'react'
-import {Link} from 'react-router-dom'
-import Fade from 'react-reveal/Fade';
+import React from "react";
+import { Link as LinkRoll } from "react-scroll";
+import { Link } from 'react-router-dom';
 
-import './Hero.css'
+// import Fade from 'react-reveal/Fade';
+import "./Hero.css";
 
 const Hero = () => {
-    return (
-
-<>
-
-        <div className='hero main-menu'>
-
-
-                <div className="hero-content">
-                    <div className='hero-brand'>
-                    <Fade left>
-                    <h1>Beverly Rehab</h1>
-                    </Fade>
-                    </div>
-
-                    <Fade right>
-                    <h1>LIVE SOBER. HEAL STRONGER.</h1>
-                    </Fade>
-                    
-                    <Fade bottom>
-                    <h3>Transitional sober housing focused on healing and long-term recovery.</h3>
-                    </Fade>
-                <div>
+  return (
+    <>
+      <div class="hero ">
+        <div class="row">
+          <div class="col-lg-12">
 
 
-                <div className='cta-btn'>
-                <Link to="/contact">
-                    <button class="cta">
-                        <span>Call us</span>
-                        <svg viewBox="0 0 13 10" height="10px" width="15px">
-                        <path d="M1,5 L11,5"></path>
-                        <polyline points="8 1 12 5 8 9"></polyline>
-                        </svg>
-                    </button>            
-                </Link>
-                </div>
-                </div>
+            <div id="content">
+
+
+              <div className="hero-text">
+                <div className="hero-btn">
+                <h1>Beverly Rehab</h1>
+                <h2>LIVE SOBER. HEAL STRONGER.</h2>
+                <p>Transitional sober housing focused on healing and long-term recovery.</p>
+                  <LinkRoll
+                      activeClass="active"
+                      to="top"
+                      spy={true}
+                      smooth={true}
+                      duration={500}
+                      >
+                        <Link to="/contact">
+                          <button> Call Us</button>
+                        </Link>
+                  </LinkRoll>              
                 </div>
             </div>
-</>
-    )
-}
+            </div>
 
-export default Hero
+            <ul className="slideshow">
+              <li>
+                <div className="slideshow-caption ">
+                </div>
+              </li>
+
+              <li>
+                <div className="slideshow-caption">
+                </div>
+              </li>
+              <li>
+                <div className="slideshow-caption">
+                </div>
+              </li>
+              <li>
+                <div className="slideshow-caption">
+                </div>
+              </li>
+              <li>
+                <div className="slideshow-caption">
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </>
+  );
+};
+
+export default Hero;

@@ -13,9 +13,12 @@ import Card3 from '../../assets/card3.jpg'
 import Card4 from '../../assets/card4.jpg'
 import Card5 from '../../assets/card5.jpg'
 
-const Cards = () => {
+const Gallery = () => {
   return (
     <>
+
+<div className='gallery'>
+
 
             <div className="cards-header container">
                 <h1>CHOOSE THE RIGHT HOME</h1>
@@ -120,8 +123,11 @@ const Cards = () => {
  </div>
 </div>
   
+
+</div>
+
     </>
   )
 }
 
-export default Cards
+export default Gallery

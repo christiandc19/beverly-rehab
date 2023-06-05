@@ -1,27 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@300&display=swap');
 
 
-/* .footer {
+.footer {
     width: 100%;
     height: auto;
     position: relative;
-    background: rgba(42, 14, 73, 0.486);
-    /* margin-top: 2rem; */
+    background: #7d94b5;
+    margin-top: 2rem;  
+}
 
 
-.footer {
+/* .footer {
     background: url('../../assets/footer-bg.jpg')no-repeat center center/cover;
     height: auto;
     width: 100%;
     z-index: -1;
     padding: 2rem 0;
-}
+} */
 
 .footer .footer-container {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding: 3rem 0 0 0;
 }
 
 .footer .top {

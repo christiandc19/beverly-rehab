@@ -13,7 +13,6 @@
   .contact-container:before {
     content: '';
     position: absolute;
-    background: url('../../assets/contact-form-bg.jpg') no-repeat center center/cover;
     height: 50%;
     width: 100%;
     z-index: -1;
@@ -26,7 +25,7 @@
     display: block;
     padding: 2rem 2rem ;
     background: #fff;
-    box-shadow: -4px -2px 20px -7px #cfd5df;
+    box-shadow: -4px -2px 20px -7px #949faf;
     margin: 4rem 2rem 2rem 3rem;
   }
 
@@ -105,7 +104,7 @@ input {
     height: 150px;
     padding: 2rem 1rem;
     background: #fff;
-    box-shadow: -4px -2px 20px -7px #cfd5df;
+    box-shadow: -4px -2px 20px -7px #b0b8c5;
     margin: 4rem 1rem 1rem 1rem;
   }
 

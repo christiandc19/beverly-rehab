@@ -1,14 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 :root {
-  --primary-color: rgb(53, 107, 41);
+  --primary-color: #7d94b5;
+  --primary-text: #4d3a08;
   --primary-dark: #141d35;
-  --secondary-color: #46a828;
+  --secondary-color: rgb(253, 146, 5);
 
-}
-
-span {
-  color: var(--primary-color);
 }
 
 * {
@@ -38,7 +35,7 @@ a {
 }
 
 a:hover {
-  color: rgb(235, 97, 22);
+  color: var(--secondary-color);
   text-decoration: none;
 }
 
@@ -69,28 +66,22 @@ h2 {
 }
 
 button {
-  box-shadow:inset 0px 0px 0px 0px #ffffff;
-	background:linear-gradient(to bottom, #ededed 5%, #dfdfdf 100%);
-	background-color:#ededed;
-	border-radius:24px;
-	border:1px solid #dcdcdc;
-	display:inline-block;
-	cursor:pointer;
-	color:#777777;
-	font-family:Arial;
-	font-size:15px;
-	font-weight:bold;
-	padding:10px 56px;
-	text-decoration:none;
-	text-shadow:0px 0px 0px #ffffff;
-  margin: 2rem 0;
 
+	background-color:#7d94b5;
+  padding:10px 56px;
+  border: none;
+  border-radius: 8px;
+  margin: 2rem 0;
+  color: white;
+  cursor:pointer;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  transition: all .5s ease-in-out;
 }
 
-
 button:hover {
-  background:linear-gradient(to bottom, #dfdfdf 5%, #ededed 100%);
 	background-color:#dfdfdf;
+  color: #7d94b5;
 }
 
 button:active {
@@ -214,31 +205,6 @@ margin: 0px 5px;
   font-size: 16px;
 }
 
-.job-link a {
-  color:var(--primary-color);
-  font-weight: bold;
-}
-
-.job-link a:hover {
-  color: #46a828;
-}
-
-
-/* Wave Divider - SA and MH Hero Image */
-
-.hero-divider {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  overflow: hidden;
-  line-height: 0;
-  transform: rotate(180deg);
-}
-
-.hero-divider img {
-  width: 100%;
-}
 
 @media screen and (max-width: 940px) {
 

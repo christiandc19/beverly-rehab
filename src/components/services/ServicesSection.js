@@ -2,34 +2,212 @@ import React from 'react'
 import Fade from 'react-reveal/Fade';
 import './ServicesSection.css'
 
-import IconBed from '../../assets/icon-bed.jpg'
-import IconExercise from '../../assets/icon-exercise.jpg'
-import IconFacilities from '../../assets/icon-facilities.jpg'
-import IconSupport from '../../assets/icon-support.jpg'
-import IconMentoring from '../../assets/icon-mentoring.jpg'
-import IconMonitoring from '../../assets/icon-monitoring.jpg'
-import IconMoneyManagement from '../../assets/icon-money-management.jpg'
-import IconJobs from '../../assets/icon-jobs.jpg'
-import IconMeals from '../../assets/icon-meals.jpg'
-import IconTransport from '../../assets/icon-transport.jpg'
-import IconStaff from '../../assets/icon-staff.jpg'
-import IconFamily from '../../assets/icon-family.jpg'
-
-
-
-import Group from '../../assets/group.jpg'
-
+import { BsCheckLg } from "react-icons/bs";
+import servicesSection1 from '../../assets/services-section-img1.png'
 
 const ServicesSection = () => {
     return (
         <>
-        <div className='ServicesSection'>
+
+
+
+
+
+
+
+
+<div className='sectionbg'>
+
+
+<div className="servicesSection ">
+        <div className="servicesSection-content container">
+
+        <div className="servicesSection-left">
+            <img src={servicesSection1} loading="lazy" alt="hiking trail" />
+          </div>
+
+
+          <div className="servicesSection-right">
+            <Fade left>
+            <h1>OUR SERVICES</h1>
+            </Fade>
+
+            <Fade right>
+            <h2>"Get your life back on the right path."</h2>
+            </Fade>
+
+            <Fade left>
+            <p>
+            A balanced approach to recovery through community & action. We offer amazing amenities at our sober living including, but not limited to:
+            </p>
+            </Fade>
+
+            <br /> <br />
+            <div className="checklist">
+
+            <Fade top>
+              <div className="servicesSection-icon">
+                <BsCheckLg />
+              </div>
+              <div>
+                <p>
+                One-On-One Mentoring
+                </p>
+              </div>
+            </Fade>
+            </div>
+
+            <div className="checklist">
+            <Fade top>
+              <div className="servicesSection-icon">
+                <BsCheckLg />
+              </div>
+              <div>
+                <p>Private and Group Rooms</p>
+              </div>
+              </Fade>
+            </div>
+
+            <div className="checklist">
+            <Fade top>
+              <div className="servicesSection-icon">
+                <BsCheckLg />
+              </div>
+              <div>
+                <p>
+                Daily Activities
+                </p>
+              </div>
+              </Fade>
+            </div>
+
+            <div className="checklist">
+            <Fade top>
+              <div className="servicesSection-icon">
+                <BsCheckLg />
+              </div>
+              <div>
+                <p>
+                Top-Notch facilities
+                </p>
+              </div>
+              </Fade>
+            </div>
+
+            <div className="checklist">
+            <Fade top>
+              <div className="servicesSection-icon">
+                <BsCheckLg />
+              </div>
+              <div>
+                <p>
+                24/7 Support
+                </p>
+              </div>
+              </Fade>
+            </div>
+
+            <div className="checklist">
+            <Fade top>
+              <div className="servicesSection-icon">
+                <BsCheckLg />
+              </div>
+              <div>
+                <p>
+                Money Management
+                </p>
+              </div>
+              </Fade>
+            </div>
+
+            <div className="checklist">
+            <Fade top>
+              <div className="servicesSection-icon">
+                <BsCheckLg />
+              </div>
+              <div>
+                <p>
+                Jobs Program
+                </p>
+              </div>
+              </Fade>
+            </div>
+
+            <div className="checklist">
+            <Fade top>
+              <div className="servicesSection-icon">
+                <BsCheckLg />
+              </div>
+              <div>
+                <p>
+                Group Meals
+                </p>
+              </div>
+              </Fade>
+            </div>
+
+            <div className="checklist">
+            <Fade top>
+              <div className="servicesSection-icon">
+                <BsCheckLg />
+              </div>
+              <div>
+                <p>
+                Transportation
+                </p>
+              </div>
+              </Fade>
+            </div>
+
+            <div className="checklist">
+            <Fade top>
+              <div className="servicesSection-icon">
+                <BsCheckLg />
+              </div>
+              <div>
+                <p>
+                On-Site Staff
+                </p>
+              </div>
+              </Fade>
+            </div>
+
+            <div className="checklist">
+            <Fade top>
+              <div className="servicesSection-icon">
+                <BsCheckLg />
+              </div>
+              <div>
+                <p>
+                Family Services
+                </p>
+              </div>
+              </Fade>
+            </div>
+
+
+          </div>
+        </div>
+      </div>
+
+
+
+
+      </div>
+
+
+
+
+
+
+
+
+        {/* <div className='ServicesSection'>
             <div className="ServicesSection-container">
-                <div className='ServicesSection-header'>
+                <div>
                 <h1>OUR SERVICES</h1><br/>
                 <p>A balanced approach to recovery through community & action.</p><br/>
                 </div>
-
                 <div className="content">
                             <Fade bottom>
                                 <div className='Services-thumbnail'>
@@ -129,7 +307,10 @@ const ServicesSection = () => {
 
 
 
-        </div>
+        </div> */}
+
+
+
         </>
     )
 }
