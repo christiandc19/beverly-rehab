@@ -23,7 +23,7 @@
   
 .contact-hero .contact-hero-content {
     position: absolute;
-    top: 40%;
+    top: 30%;
     padding: 1rem;
     text-align: center;
 }
@@ -34,6 +34,15 @@
     color: white;
     text-align: center;
 }
+
+.contact-hero h2 {
+    font-size: 3rem;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    text-align: center;
+    padding: .5rem 0;
+}
+
 
 .contact-hero p {
     font-family: 'Montserrat', sans-serif;
