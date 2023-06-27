@@ -51,39 +51,23 @@ const Footer = () => {
 
                     <div className="col">
                         <h3>LOCATIONS</h3>
-                        <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
-                        <Link to='/north-citrus'><p>North Citus, Los Angeles</p></Link>
-                        </LinkRoll>
-
-                        <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
-                        <Link to='/north-detroit'><p>North Detroit, Los Angeles</p></Link>
-                        </LinkRoll>
-
-                        <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
-                        <Link to='/huntington-beach'><p>Huntington Beach,California</p></Link>
-                        </LinkRoll>
-
-                        <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
-                        <Link to='/west-hollywood'><p>West Hollywood, California</p></Link>
-                        </LinkRoll>
-
-                        <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
-                        <Link to='/venice'><p>Venice, California</p></Link>
-                        </LinkRoll>
+                        <p>Orange County</p>
+                        <p>Ventura County</p>
+                        <p>San Diego County</p>
                     </div>
 
-{/* 
-                    <form>
-                        <h3>Follow Us:</h3>
-                        <div className="social-group">
-                            <FiInstagram className='social-icon' />
-                            <FiFacebook className='social-icon' />
-                            <FiLinkedin className='social-icon' />
-                        </div>
-                    </form> */}
+
+                    <div className="col">
+                        <h3>Corporate Office</h3>
+                       <p>1800 Vine Street, Los Angeles CA 90028</p>
+                       <p><a href="tel:4244533866"> +1 (424) 453-3866 </a></p>
+
+
+                    </div>
+
+
                 </div>
                 <p className='copyright'><p>&copy; 2023 BEVERLY REHAB. ALL RIGHTS RESERVED</p></p>
-
 
             </div>
 
