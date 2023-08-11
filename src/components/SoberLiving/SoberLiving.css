@@ -2,12 +2,12 @@
 
 .SoberLiving {
     width: 100%;
-    height: 80vh;
+    height: 100vh;
     position: relative;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    background: rgba(19, 18, 18, 0.322);
+    background: rgba(17, 17, 17, 0.438);
   }
   
   .SoberLiving:before {
