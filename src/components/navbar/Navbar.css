@@ -83,7 +83,7 @@
     background: white;
     border: 1px solid lavender;
     border-radius: 10px;
-    width: 250px;
+    width: auto;
     left: -17px;
     padding: 2px 0 0 0;
     margin-top: 6px;
@@ -104,6 +104,11 @@
 
   
 @media screen and (max-width: 940px) {
+
+    .sub__menus__arrows svg, .sub__menus__arrows__full svg {
+      display: none;
+    }
+
     .navbar .hamburger {
         display: block;
         z-index: 15;
@@ -143,10 +148,6 @@
 
       #submenu-item li {
         padding: .2rem 1rem;
-      }
-
-      .sub__menus {
-        width: 250px;
       }
 
       .navbar .navbar-container {
