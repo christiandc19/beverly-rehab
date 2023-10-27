@@ -3,9 +3,9 @@ import './SoberLivingSection.css'
 
 import Fade from 'react-reveal/Fade';
 import { BsCheckLg } from "react-icons/bs";
-import Sobriety1 from '../../assets/sobriety1.jpg'
-import Sobriety2 from '../../assets/sobriety2.jpg'
-import Sobriety3 from '../../assets/sobriety3.jpg'
+import Sobriety1 from '../../assets/sobriety1.webp'
+import Sobriety2 from '../../assets/sobriety2.webp'
+import Sobriety3 from '../../assets/sobriety3.webp'
 
 
 const SoberLivingSection = () => {

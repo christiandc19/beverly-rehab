@@ -1,7 +1,7 @@
 import React from 'react'
 
-import TreatmentImage1 from '../../assets/treatment-1.jpg'
-import TreatmentImage2 from '../../assets/treatment-2.jpg'
+import TreatmentImage1 from '../../assets/treatment-1.webp'
+import TreatmentImage2 from '../../assets/treatment-2.webp'
 
 
 import { FaRegStar } from 'react-icons/fa';

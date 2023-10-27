@@ -26,7 +26,7 @@
 .HuntingtonBeach .HuntingtonBeach-content {
     display: block;
     position: absolute;
-    top: 40%;
+    bottom: 20%;
     padding: 1rem;
 }
 
@@ -37,11 +37,6 @@
     text-align: center;
 }
 
-.HuntingtonBeach h3 {
-    color: white;
-    font-size: 1.5rem;
-    font-family: 'Montserrat', sans-serif;
-}
 
 /* MEDIA QUERIES */
 
@@ -51,8 +46,5 @@
     font-size: 2rem;
 }
 
-.HuntingtonBeach h3 {
-    font-size: 1rem;
-}
 
 }

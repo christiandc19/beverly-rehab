@@ -7,11 +7,11 @@ import { Link as LinkRoll } from 'react-scroll'
 import Fade from 'react-reveal/Fade';
 
 
-import Card1 from '../../assets/card1.jpg'
-import Card2 from '../../assets/card2.jpg'
-import Card3 from '../../assets/card3.jpg'
-import Card4 from '../../assets/card4.jpg'
-import Card5 from '../../assets/card5.jpg'
+import Card1 from '../../assets/card1.webp'
+import Card2 from '../../assets/card2.webp'
+import Card3 from '../../assets/card3.webp'
+import Card4 from '../../assets/card4.webp'
+import Card5 from '../../assets/card5.webp'
 
 const Gallery = () => {
   return (

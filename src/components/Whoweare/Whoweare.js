@@ -2,7 +2,7 @@ import React from 'react'
 import './Whoweare.css'
 import Fade from 'react-reveal/Fade';
 import { BsCheckLg } from "react-icons/bs";
-import WhatWeDoImg1 from '../../assets/whatwedo1.jpg'
+import WhatWeDoImg1 from '../../assets/whatwedo1.webp'
 
 
 

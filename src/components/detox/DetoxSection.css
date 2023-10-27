@@ -22,7 +22,7 @@
 }
 
 .treatment-plan {
-    background: url('../../assets/hero-bg-1.jpg') no-repeat center center/cover;
+    background: url('../../assets/hero-bg-1.webp') no-repeat center center/cover;
     padding: 3rem;
 }
 
@@ -94,7 +94,7 @@ flex-wrap: wrap;
 justify-content: center;
 padding: 3rem 0;
 gap: 2rem;
-background: url('../../assets/hero-bg-1.jpg') no-repeat center center/cover;
+background: url('../../assets/hero-bg-1.webp') no-repeat center center/cover;
 }
 
 .treatment-section-activities .treatment-left {

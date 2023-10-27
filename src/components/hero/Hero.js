@@ -15,12 +15,12 @@ const Hero = () => {
 
             <div id="content">
 
-
               <div className="hero-text">
-                <div className="hero-btn">
                 <h1>Beverly Rehab</h1>
                 <h2>LIVE SOBER. HEAL STRONGER.</h2>
                 <p>Transitional sober housing focused on healing and long-term recovery.</p>
+
+                <div className="hero-btn">
                   <LinkRoll
                       activeClass="active"
                       to="top"

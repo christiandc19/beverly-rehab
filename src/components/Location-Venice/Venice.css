@@ -27,7 +27,7 @@
 .Venice .Venice-content {
     display: block;
     position: absolute;
-    top: 40%;
+    bottom: 20%;
     padding: 1rem;
 }
 
@@ -38,11 +38,6 @@
     text-align: center;
 }
 
-.Venice h3 {
-    color: white;
-    font-size: 1.5rem;
-    font-family: 'Montserrat', sans-serif;
-}
 
 /* MEDIA QUERIES */
 
@@ -50,10 +45,6 @@
 
 .Venice h1 {
     font-size: 2rem;
-}
-
-.Venice h3 {
-    font-size: 1rem;
 }
 
 }
